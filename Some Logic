@@ -1,0 +1,10 @@
+var iswinter : boolean = false;
+// iswinter = 123;
+var count : Number = 5;
+var name : String = "Andrew"
+var names : any[] = ["Andy", "Kamal", "Ghobrial", 5];
+enum Starks {Andy, Rogers, Greg, Kitten}
+var And : Starks = Starks.Andy;
+function getname() : void {
+  Console.Log("The season is coming!")
+}

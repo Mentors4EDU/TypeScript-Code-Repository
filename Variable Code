@@ -1,0 +1,3 @@
+var n : number = 1;
+n = 'Andrew';
+'You can set the varible n to a number or set to any

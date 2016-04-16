@@ -1,0 +1,12 @@
+class Stark {
+    name: string = "Johnathon";
+    static palace: string = "Season"
+    saying: string;
+    constructor(){
+      this.saying = Stark.palace
+    }
+}
+var test = new Stark();
+test.saying = "Season is coming";
+//console.log(Stark.palace);
+test.hello("Johnathon");

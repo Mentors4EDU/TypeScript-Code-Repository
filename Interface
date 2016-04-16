@@ -1,0 +1,9 @@
+interface Stark {
+    name : string;
+    age? : number;
+}
+funtion printName (stark : Stark) {
+    console.log(stark.name);
+}
+printName({name:"Andrew"};
+printName({name:"Kamal"};

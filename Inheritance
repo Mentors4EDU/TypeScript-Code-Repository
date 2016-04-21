@@ -1,0 +1,18 @@
+class Person {
+  name: string;
+  constructor(name:string) {
+    this.name = name;
+  }
+  jog(){
+    console.log(this.name + " is jogging");
+  }
+}
+var samuel = new Person("Samuel");
+samuel.jog();
+class AwesomeHuman extends Person {
+  jog(){
+    console.log("So Awesome!");
+  }
+}
+var johnny = New AwesomeHuman("Johnny");
+johnny.jog();

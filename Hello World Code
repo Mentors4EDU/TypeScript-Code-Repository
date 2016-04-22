@@ -1,0 +1,13 @@
+class Greeter {
+    constructor(public greeting: string) { }
+    greet() {
+        return "<h1>" + this.greeting + "</h1>";
+    }
+};
+
+var greeter = new Greeter("Hello, world!");
+    
+document.body.innerHTML = greeter.greet();
+'Source: https://github.com/DecimusN7
+'This is how to say Hello World using greeter as a class
+'Then setting it as variable eqaul to the phrase Hello World

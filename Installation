@@ -1,0 +1,14 @@
+'For installation on Node.js (NPM Package users), use the following shortcode:
+npm install -g typescript
+
+'To compile declare a function and use the shortcode:
+tsc functioname.ts                    
+
+'To run a web app use the following:
+<!DOCTYPE html>
+<html>
+    <head><title>TypeScript functioname</title></head>
+    <body>
+        <script src="functioname.js"></script>
+    </body>
+</html>

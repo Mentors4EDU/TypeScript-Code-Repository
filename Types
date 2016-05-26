@@ -1,0 +1,3 @@
+var isDone: boolean = false;
+var lines: number = 78;
+var name: string = "Coolio";

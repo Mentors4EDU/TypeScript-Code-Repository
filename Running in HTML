@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+    <head><title>TypeScript Web App Runner</title></head>
+    <body>
+        <script src="web.js"></script>
+    </body>
+</html>

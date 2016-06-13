@@ -1,0 +1,3 @@
+function AlertArray(): void {
+  alert("I'm a little notification!");
+}

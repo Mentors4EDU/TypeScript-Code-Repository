@@ -1,0 +1,4 @@
+interface IStudent {
+     yearOfBirth: number;
+     age : () => number;
+   }

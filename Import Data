@@ -1,0 +1,4 @@
+import ds = require("DataService");
+export function run() {
+    var service = new ds.DataService();
+}    alert(service.getMessage());

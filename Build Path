@@ -1,0 +1,7 @@
+@Component({
+  selector: 'my-app'
+})
+@View({
+  templateUrl: _settings.buildPath + '/components/app/app.html',
+  directives: [RouterLink, RouterOutlet]
+})

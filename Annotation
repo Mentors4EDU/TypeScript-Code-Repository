@@ -1,0 +1,4 @@
+var myName: string = "Andrew";
+function printName(name: string) {
+    console.log(name);
+}

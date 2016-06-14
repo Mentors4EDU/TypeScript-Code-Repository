@@ -1,0 +1,4 @@
+app.post('/api/achievements', function(request, response){
+    achievements.push(JSON.parse(request.body));
+    response.send(achievements);
+});

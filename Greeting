@@ -1,0 +1,2 @@
+var name = 'Tyrone';
+var greeting = `Hi ${name}, how are you?`

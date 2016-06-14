@@ -1,0 +1,2 @@
+var f2 = function(i: number) { return i * i; }
+var f3 = (i: number): number => { return i * i; }

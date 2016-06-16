@@ -1,0 +1,5 @@
+///<reference path='components/vehicles/Vehicle.ts'/>
+///<reference path='components/vehicles/4by4.ts'/>
+class Main {
+    private _compact:Vehicle;
+    private _pickup:4by4;

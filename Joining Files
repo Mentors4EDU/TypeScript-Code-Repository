@@ -1,0 +1,3 @@
+tsc *.ts --out app.js
+'This is a watcher
+tsc *.ts --out app.js --watch

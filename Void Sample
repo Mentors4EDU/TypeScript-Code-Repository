@@ -1,0 +1,7 @@
+interface Person {
+  name: string;
+  // Optional property "?"
+  age?: number;
+  // Functions
+  move(): void;
+}

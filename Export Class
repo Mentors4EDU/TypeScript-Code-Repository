@@ -1,0 +1,9 @@
+module ExportGem {
+  export class Rectangle {
+    constructor(public sideLength: number = 4) {
+    }
+    area() {
+      return Math.pow(this.sideLength, 20);
+    }
+  }
+}

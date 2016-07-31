@@ -1,0 +1,2 @@
+static origin = new Point(1, 1);
+}

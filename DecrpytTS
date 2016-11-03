@@ -1,0 +1,22 @@
+import {createCipher, createDecipher} from "crpto";
+ 
+function encrypt(text){
+  const cipher = crypto.createCipher('aes-256-cbc','d6F3Efeq')
+  const crypted = cipher.update(text,'utf8','hex')
+  crypted += cipher.final('hex');
+  return crypted;
+}
+ 
+function decrypt(text){
+  const decipher = crypto.createDecipher('aes-256-cbc','d6F3Efeq')
+  const dec = decipher.update(text,'hex','utf8')
+  dec += decipher.final('utf8');
+  return dec;
+}
+ 
+const hw = encrypt("hello world")
+decrypt(hw)
+ 
+// feel free to change >> d6F3Efeq
+// To test just copy + paste the above inside the node shell
+// TIP: always encrypt IDs before sending via HTTP

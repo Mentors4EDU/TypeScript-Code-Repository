@@ -1,0 +1,55 @@
+<div class="container">
+     <h1>AES-256</h1> 
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input id="password" type="text" class="form-control" placeholder="1234" value="1234">
+    </div>
+</div>
+<div id="plaintextDiv" class="col-md-6">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                 <h3 class="panel-title text-center">Plain text</h3>
+
+            </div>
+            <div class="row text-center">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button class="clear btn btn-default">Clear</button>
+                    <button class="copy btn btn-default">Copy</button>
+                    <button class="paste btn btn-default">Paste</button>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <textarea id="plaintext" class="form-control" rows="10">Hello World!</textarea>
+        </div>
+    </div>
+</div>
+<div id="cipherDiv" class="col-md-1 text-center">
+    <div class="row">
+        <button id="encryptBtn" class="btn btn-primary ">Encrypt <i class="glyphicon glyphicon-triangle-right"></i></button>
+    </div>
+    <div class="row">
+        <button id="decryptBtn" class="btn btn-primary "><i class="glyphicon glyphicon-triangle-left"></i> Decrypt</button>
+    </div>
+</div>
+<div id="cipherDiv" class="col-md-5">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                 <h3 class="panel-title text-center">Cipher</h3>
+
+            </div>
+            <div class="row text-center">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button class="clear btn btn-default">Clear</button>
+                    <button class="copy btn btn-default">Copy</button>
+                    <button class="paste btn btn-default">Paste</button>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <textarea id="cipher" class="form-control" rows="10"></textarea>
+        </div>
+    </div>
+</div>

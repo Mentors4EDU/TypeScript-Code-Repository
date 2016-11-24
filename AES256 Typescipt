@@ -10,7 +10,6 @@
         <div class="panel-heading">
             <div class="row">
                  <h3 class="panel-title text-center">Plain text</h3>
-
             </div>
             <div class="row text-center">
                 <div class="btn-group" role="group" aria-label="...">

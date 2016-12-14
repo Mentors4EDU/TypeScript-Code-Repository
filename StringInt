@@ -1,0 +1,2 @@
+var lyrics = 'Just Beat It';
+var html = '<div>' + lyrics + '</div>';

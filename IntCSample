@@ -1,0 +1,9 @@
+for (i = 0; i < types.length; i++) {
+
+  var type = types[i];
+
+  html += 'export interface ' + type.shortName;
+
+  html += ' extends ';
+
+  if (type.hasOwnProperty('baseEntityType')) 

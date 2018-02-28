@@ -1,0 +1,5 @@
+Subject(List?: string[]) {
+   if (List == null) {
+      alert('Oh, You have not subscribed to this newsletter');
+    }
+  }

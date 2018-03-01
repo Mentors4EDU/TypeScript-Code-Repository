@@ -1,0 +1,1 @@
+ notify(value?: any, ...args: any[]): JQueryDeferred<T>;

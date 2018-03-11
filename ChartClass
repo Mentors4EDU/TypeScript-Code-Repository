@@ -1,0 +1,8 @@
+class SampleChart{
+    SampleName: string;
+    sample100: number;
+    constructor(inName: string, public sampleinIn100: number) {
+        this.sampleName = inName;
+        this.sample100 = SampleIn100;
+    }
+}
